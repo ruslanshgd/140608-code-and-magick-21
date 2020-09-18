@@ -183,10 +183,7 @@
 <script>
   let fireballSize = 22;
   let getFireballSpeed = (isMovingLeft) => {
-    if(isMovingLeft) {
-      return 2;
-    }
-    return 5;
+    return isMovingLeft ? 2 : 5;
   }
   let wizardSpeed = 3;
   let wizardWidth = 70;
